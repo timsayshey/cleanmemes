@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+html 
+{
+	height: 100%;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.imageLink
+{
+	border:3px solid #999;
+	margin:15px 15px auto auto;
+	cursor:pointer;
+}
+
+.imageLink:hover
+{
+	border:3px solid #099;
+}
+.textLink
+{
+	display:inline;	
+	margin:5px 15px 5px 0px;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+.textLink:hover
+{
+	font-weight:bold;
+}
+
+.contentContainer
+{
+	position:relative;
+	top: 0px;  
+	left: 0px; 
+	font-size: 100%;
+	text-align: center;
+	width:100%;
+	height:100%;
+	min-height:100%;
+	overflow:auto;
+}
+
+.sliderHolder
+{
+	position:fixed;
+	top: 0px;  
+	left: 0px; 
+	font-size: 100%;
+	width:100%;
+	height:100%;
+	min-height:100%;
+	/*background-color:#DBDEE1;*/
+	/*
+	position:fixed;
+	left:0px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	z-index:1 !important;
+	background-color:black;
+*/
+	
+}
+
+.sliderHolder
+{
+	overflow:hidden;
+	
+}
+
+.controlButton
+{
+	background:url(../assets/control_bg.png) repeat-x;
+	text-align:center;
+}
+
+.controlContainer
+{
+	background:url(../assets/control_bg.png) repeat-x;
+}
+
+.banner img, .bannerInner div
+{
+	display:none;	
+}
+
+.divPad 
+{
+   padding-top: 40px;
+}
+
+.superCaption
+{
+	padding:5px;	
+}

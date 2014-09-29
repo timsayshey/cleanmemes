@@ -1,0 +1,14 @@
+.sliderHolder
+{
+	width:696px;
+	height:464px;
+	position:relative;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.superCaption
+{
+	padding:5px;	
+}

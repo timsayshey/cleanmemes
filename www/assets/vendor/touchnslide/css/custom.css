@@ -1,0 +1,139 @@
+.sliderHolder {
+	width:100%;
+	height:400px;
+	position:relative;
+	border:1px solid #CCC;
+	color:#F0EFEF;
+}
+.gsThumbs, .gsThumbs2 {
+	width:100%;
+	min-height:100%;
+	overflow:hidden;
+	position:absolute;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor:pointer;
+	min-height:0%;
+}
+.gsThumbsHolder, .gsThumbsHolder2 {
+	width:100%;
+	height:104px;
+	position:absolute;
+	overflow:hidden;
+}
+.gsThumbs {
+	bottom:0px;
+	top:auto;
+}
+.gsThumbs2 {
+	bottom:0px;
+	top:auto;
+}
+.gsThumbsHolder {
+	bottom:0px;
+	top:auto;
+}
+.gsThumbsHolder2 {
+	bottom:30px;
+	top:auto;
+}
+.gsThumbToggle, .gsCaptionToggle, .gsAutoPlay, .gsPrev, .gsNext, .gsZoomIn, .gsZoomOut {
+	width:30px;
+	height:30px;
+	cursor:pointer;
+}
+.gsThumbToggle {
+	background-image:url(../assets/gs_thumb_toggle.png);
+}
+.gsCaptionHolder, .gsCaptionHolder2 {
+	width:100%;
+	min-height:20px;
+	position:absolute;
+	overflow:hidden;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.gsCaption, .gsCaption2 {
+	width:100%;
+	min-height:20px;
+	color:#EEE;
+	top:0px;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+	position:absolute;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.gsCaption {
+	bottom:0px;
+	top:auto;
+}
+.gsCaptionHolder {
+	bottom:0px;
+	top:auto;
+}
+.gsCaption2 {
+	bottom:auto;
+	top:0px;
+}
+.gsCaptionHolder2 {
+	top:0px;
+	bottom:auto;
+}
+.gsCaptionToggle {
+	background-image:url(../assets/gs_caption_toggle.png);
+}
+.gsAutoPlay {
+	background-image:url(../assets/gs_autoplay.png);
+}
+.gsPrev {
+	background-image:url(../assets/gs_prev.png);
+}
+.gsNext {
+	background-image:url(../assets/gs_next.png);
+}
+.gsZoomIn {
+	background-image:url(../assets/gs_zoom_in.png);
+}
+.gsZoomOut {
+	background-image:url(../assets/gs_zoom_out.png);
+}
+.textLink {
+	display:inline;
+	margin:5px 15px 5px 0px;
+	cursor:pointer;
+	border:1px solid transparent;
+}
+.topRight {
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+.top2Right {
+	position:absolute;
+	right:10px;
+	top:40px;
+}
+.midRight {
+	position:absolute;
+	right:10px;
+	top:185px;
+}
+.midLeft {
+	position:absolute;
+	left:10px;
+	top:185px;
+}
+.gsControlHolder {
+	width:100%;
+	height:30px;
+	background: #363334;
+	background:rgba(54, 51, 52, 0.9);
+	position:absolute;
+	bottom:0px;
+	overflow:hidden;
+}

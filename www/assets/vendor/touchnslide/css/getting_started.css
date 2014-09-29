@@ -1,0 +1,175 @@
+.navtab1
+{
+	margin-left:20px;	
+}
+
+.navtab2
+{
+	margin-left:40px;	
+}
+
+.navtab3
+{
+	margin-left:60px;	
+}
+.gsnav
+{
+	list-style:none;
+}
+
+.gsnav > li
+{
+	padding:3px;
+}
+
+.backToTop
+{
+	font-size:12px;
+	font-weight:normal;
+	color:#999999;	
+}
+
+.verticalPad
+{
+	padding-top:10px;
+	padding-bottom:10px;	
+}
+
+.listLight, .imageLight, .thumbLight, .elemLight, .optionsLight, .showLight, .hideLight, .onLight, .offLight, .thumbToggleLight, .altLight, .captionLight, .htmlCaptionLight, .captionToggleLight, .autoplayLight, .slidesLight, .arrowNavLight, .zoomLight, .linkLight, .naLight
+{
+	padding:1px 4px 1px 4px;
+	margin-left:4px;
+	margin-right:4px;
+}
+
+.listLight
+{
+	background-color:#fcf8e3;
+	border:1px solid #F90;
+}
+
+.imageLight
+{
+	background-color:#f4e9ee;
+	border:1px solid #ca90ab;
+}
+
+.thumbLight
+{
+	background-color:#d6ebff;
+	border:1px solid #3d658b;
+}
+
+.elemLight
+{
+	background-color:#D6D6E5;
+	border:1px solid #3d658b;
+}
+
+.optionsLight
+{
+	background-color:#E8D3E7;
+	border:1px solid #A14080;
+}
+
+
+.showLight
+{
+	background-color:#D1E5D5;
+	border:1px solid #3DA06B;
+}
+
+
+.hideLight
+{
+	background-color:#DFE2D0;
+	border:1px solid #9E7E3E;
+}
+
+.onLight
+{
+	background-color:#E0EAC7;
+	border:1px solid #3D9946;
+}
+
+.offLight
+{
+	background-color:#F0EDCA;
+	border:1px solid #C0BE81;
+}
+
+.slidesLight
+{
+	background-color:#F0EDCA;
+	border:1px solid #3B8C75;
+}
+
+.thumbToggleLight
+{
+	background-color:#C1DDD4;
+	border:1px solid #3B8C75;
+}
+
+/* change color */
+
+.altLight
+{
+	background-color:#C1DDD4;
+	border:1px solid #3B8C75;
+}
+
+.captionLight
+{
+	background-color:#F0EDCA;
+	border:1px solid #3B8C75;
+}
+
+.htmlCaptionLight
+{
+	background-color:#C1DDD4;
+	border:1px solid #3B8C75;
+}
+
+.captionToggleLight
+{
+	background-color:#C1DDD4;
+	border:1px solid #3B8C75;
+}
+
+.autoplayLight
+{
+	background-color:#F0EDCA;
+	border:1px solid #3B8C75;
+}
+
+.arrowNavLight
+{
+	background-color:#C1DDD4;
+	border:1px solid #3B8C75;
+}
+
+.zoomLight
+{
+	background-color:#F0EDCA;
+	border:1px solid #3B8C75;
+}
+
+.linkLight
+{
+	background-color:#F0EDCA;
+	border:1px solid #9E7E3E;	
+}
+
+.naLight
+{
+	background-color:#F0EDCA;
+	border:1px solid #9E7E3E;	
+}
+
+.note
+{
+	background-color:#F0EDCA;
+	border:1px solid #9E7E3E;	
+	padding:10px;
+	font-style:italic;
+}
