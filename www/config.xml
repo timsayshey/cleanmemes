@@ -46,6 +46,9 @@
     <!-- Core plugins -->
 	<gap:plugin name="org.apache.cordova.splashscreen" />
 	<gap:plugin name="org.apache.cordova.inappbrowser" />
+
+    <plugin name="cordova-plugin-splashscreen" version="~4.0.1" />
+    <plugin name="cordova-plugin-inappbrowser" version="~1.6.1" />
 	
     <!--<gap:plugin name="org.apache.cordova.battery-status" />
     <gap:plugin name="org.apache.cordova.camera" />
