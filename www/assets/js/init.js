@@ -3,6 +3,8 @@ GLOBAL.noACL = true;
 
 $(function() {
 	
+	window.location="http://www.outerplex.com/memefeed/";
+
 	//dom cache
 	var meme_list, new_meme, new_memeCode, parse_log;
 
