@@ -42,17 +42,21 @@ $(function() {
 		} else {
 			GLOBAL.droidVer = 0;
 		}	
-		
-		_initParse();
-		
-		getMemes();
-	}	
+
+		$.ajax({
+			type: "GET",
+			url: "http://outerplex.com/apps/memeslurp/memes.json",
+			async: false,
+			success : function(data) {
+				getMemes(data);
+			}
+		});
+	}
 	
 	var currentPage = 'home';
 	
 	//doc ready init
 	$(init);
-	
 });	
 
 function doFail(e) 
